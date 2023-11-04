@@ -22,7 +22,8 @@ export const metadata: Metadata = {
     template: 'Nubank - s%',
   },
   description: 'Peça sua conta e cartão de crédito do Nubank - Empréstimo. Transparentes, seguros e do seu jeito. Opções de empréstimos que deixam você no controle sempre',
-  themeColor: '#82269e',
+  keywords: 'nubank, crédito, banco virtual, nu',
+  themeColor: '#edeaef',
   robots: {
     index: true,
     follow: true,
