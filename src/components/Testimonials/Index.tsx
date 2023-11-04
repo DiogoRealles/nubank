@@ -20,7 +20,11 @@ const Index = () => {
           }</h2>
         </div>
 
-        <Swiper data-ao="fade-left" data-aos-delay="300" data-aos-duration="1000"
+        <Swiper
+          className=''
+          data-ao="fade-left"
+          data-aos-delay="300"
+          data-aos-duration="1000"
           modules={[Navigation, Pagination]}
           spaceBetween={40}
           slidesPerView={'auto'}
@@ -32,7 +36,7 @@ const Index = () => {
         >
           {
             TESTIMONIALS_CARD.map((item, index) => (
-              <SwiperSlide key={index}>
+              <SwiperSlide className='' key={index}>
                 <div className="card-photo">
                   <Image
                     src={item.avatar}
