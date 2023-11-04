@@ -8,7 +8,8 @@ const Index = () => {
       <div className="container-center">
         <div className="">
           <div className='footer-top'>
-            {FOOTER_LINKS.map((columns) => (
+            {FOOTER_LINKS.map((columns, index) => (
+              <div key={index} className="">
               <FooterColumn title={columns.title}>
                 <ul className="">
                   {columns.links.map((link) => (
@@ -18,6 +19,7 @@ const Index = () => {
                   ))}
                 </ul>
               </FooterColumn>
+              </div>
             ))}
 
             <FooterColumn title={FOOTER_APPS.title}>

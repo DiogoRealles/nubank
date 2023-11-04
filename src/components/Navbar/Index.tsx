@@ -83,8 +83,8 @@ const Index = () => {
             <Link className="btn" href="">{LABELS_BTN[0]}</Link>
             <ul className="flex gap-4 mt-4">
               {MENU_SOCIALS.map((social: string, index: number) => (
-                <li>
-                  <Link href="/" key={index}>
+                <li key={index}>
+                  <Link href="/">
                     <div className="w-10 h-10">
                       <Image
                         src={social}
