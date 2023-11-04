@@ -8,6 +8,30 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'icons': 'icons 5s ease-in-out .5s infinite alternate',
+      },
+      keyframes: {
+        'icons': {
+          '0%': {
+            transform: 'translate3d(0, 0, 0)',
+          },
+      
+          '100%': {
+            transform: 'translate3d(10px, -40px, 0)',
+          },
+        },
+        'logo-navbar': {
+          '0%': {
+            transform: 'translate3d(0, 0, 0)',
+          },
+      
+          '100%': {
+            transform: 'translate3d(10px, -40px, 0)',
+          },
+        },
+      },
+
       backgroundImage: {
         'hero-banner': "url('/img/hero.svg')",
         'icon-ok': "url('/img/icons/icon-check.svg')",

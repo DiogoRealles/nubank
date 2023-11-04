@@ -778,19 +778,15 @@ img {
     filter: drop-shadow(0px 16px 24px rgba(169, 80, 196, 0.25));
 
     &.icon-hero-card {
-      animation: icons-hero 5s ease-in-out .5s infinite alternate;
-      @apply -top-[80px] left-[150px];
+      @apply -top-[80px] left-[150px] animate-icons;
     }
 
     &.icon-hero-mobile {
-      animation: icons-hero 5s ease-in-out 2.5s infinite alternate;
-      @apply top-0 left-0;
+      @apply top-0 left-0 animate-icons;
     }
 
     &.icon-hero-contactless {
-      animation: icons-hero 5s ease-in-out 2s infinite alternate;
-
-      @apply -bottom-[80px] left-[300px];
+      @apply -bottom-[80px] left-[300px] animate-icons;
     }
 
     @apply absolute w-16 h-16 z-10 hidden md:block;
