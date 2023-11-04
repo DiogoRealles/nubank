@@ -4,7 +4,7 @@ import { LABELS_BTN, NAV_LINKS_DESKTOP, NAV_LINKS_MOBILE, MENU_SOCIALS, } from "
 import Link from "next/link"
 import ItemMenu from "./ItemMenu"
 import ItemMenuMobile from "./ItemMenuMobile"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Image from "next/image";
 import LogoNu from "./LogoNu";
 const Index = () => {
@@ -27,7 +27,10 @@ const Index = () => {
     }
   }
 
-  window.addEventListener('scroll', changeColor);
+  useEffect(() => {
+    window.addEventListener('scroll', changeColor);
+  }, []);
+  
 
   return (
     <header id="header" className={`${color ? 'header active-header' : 'header'}`}>

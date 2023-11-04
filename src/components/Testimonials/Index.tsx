@@ -29,8 +29,6 @@ const Index = () => {
           navigation
           pagination={{ dynamicBullets: true, clickable: true }}
           scrollbar={{ draggable: false }}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
         >
           {
             TESTIMONIALS_CARD.map((item, index) => (
