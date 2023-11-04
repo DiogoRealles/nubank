@@ -1,0 +1,6 @@
+
+    <svg width="456" height="660" viewBox="0 0 456 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="456" height="660" fill="transparent"></rect>
+      <rect width="456" height="660" rx="63" fill="transparent"></rect>
+      <img className="people3" href="./people1.png" width="456" height="660" />
+    </svg>
