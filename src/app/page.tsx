@@ -9,7 +9,7 @@ import Cta from "@/components/Cta/Index";
 
 export default function Home() {
   return (
-    <main className="overflow-x-hidden">
+    <main className="overflow-x-clip">
       <Hero />
       <People />
       <Features />

@@ -14,8 +14,8 @@ const Index = () => {
   }, []);
 
   return (
-    <section id="hero" className="section border-2 border-red-600">
-      <div className="bg-hero overflow-x-hidden">
+    <section id="hero" className="section">
+      <div className="bg-hero overflow-x-clip">
         <div className="svg-bg-home">
           <BgHero />
         </div>
